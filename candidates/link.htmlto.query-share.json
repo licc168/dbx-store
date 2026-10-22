@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "link.htmlto.query-share",
   "publisher": "htmlto",
-  "version": "0.2.6",
+  "version": "0.1.0",
   "name": "HTML To Link",
   "description": "Publish a query result, or a table's columns, indexes, foreign keys, and comments, as a read-only htmlto.link page. Database credentials stay in DBX.",
-  "icon": "https://raw.githubusercontent.com/licc168/dbx-htmlto-link/v0.2.6/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/licc168/dbx-htmlto-link/v0.1.0/assets/plugin.svg",
   "tags": ["sql", "share", "markdown"],
   "permissions": [
     "host.storage",
@@ -13,10 +13,10 @@
     "host.schema:read",
     "host.network:https://htmlto.link:443"
   ],
-  "source": "https://github.com/licc168/dbx-htmlto-link/tree/v0.2.6",
+  "source": "https://github.com/licc168/dbx-htmlto-link/tree/v0.1.0",
   "homepage": "https://htmlto.link",
   "license": "MIT",
-  "releaseNotes": "Publish a query result, or reconstructed table structure with indexes, foreign keys, and comments, as a read-only htmlto.link page.",
+  "releaseNotes": "Initial release. Publish a query result, or reconstructed table structure with indexes, foreign keys, and comments, as a read-only htmlto.link page.",
   "localizations": {
     "zh-CN": {
       "name": "HTML To Link",
@@ -26,9 +26,9 @@
   "targets": [
     {
       "target": "universal",
-      "url": "https://github.com/licc168/dbx-htmlto-link/releases/download/v0.2.6/link.htmlto.query-share-0.2.6-universal.dbxp",
-      "sha256": "aab09d780a48d8f5918d9e34be5c5d04d5ca0bb3c6f82c7a271f9ee551651ba5",
-      "size": 34851
+      "url": "https://github.com/licc168/dbx-htmlto-link/releases/download/v0.1.0/link.htmlto.query-share-0.1.0-universal.dbxp",
+      "sha256": "0cfd136b9a47fe21bf1e11af22712671b954b6d553a89dbe2c5a803de0f43425",
+      "size": 34840
     }
   ]
 }

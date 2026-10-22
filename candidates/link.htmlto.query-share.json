@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "link.htmlto.query-share",
+  "publisher": "htmlto",
+  "version": "0.2.6",
+  "name": "HTML To Link",
+  "description": "Publish a query result, or a table's columns, indexes, foreign keys, and comments, as a read-only htmlto.link page. Database credentials stay in DBX.",
+  "icon": "https://raw.githubusercontent.com/licc168/dbx-htmlto-link/v0.2.6/assets/plugin.svg",
+  "tags": ["sql", "share", "markdown"],
+  "permissions": [
+    "host.storage",
+    "host.data:read",
+    "host.schema:read",
+    "host.network:https://htmlto.link:443"
+  ],
+  "source": "https://github.com/licc168/dbx-htmlto-link/tree/v0.2.6",
+  "homepage": "https://htmlto.link",
+  "license": "MIT",
+  "releaseNotes": "Publish a query result, or reconstructed table structure with indexes, foreign keys, and comments, as a read-only htmlto.link page.",
+  "localizations": {
+    "zh-CN": {
+      "name": "HTML To Link",
+      "description": "把查询结果，或表的字段、索引、外键和注释，发成一条只读的 htmlto.link 链接。数据库连接留在 DBX。"
+    }
+  },
+  "targets": [
+    {
+      "target": "universal",
+      "url": "https://github.com/licc168/dbx-htmlto-link/releases/download/v0.2.6/link.htmlto.query-share-0.2.6-universal.dbxp",
+      "sha256": "aab09d780a48d8f5918d9e34be5c5d04d5ca0bb3c6f82c7a271f9ee551651ba5",
+      "size": 34851
+    }
+  ]
+}

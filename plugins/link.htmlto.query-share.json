@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 1,
   "id": "link.htmlto.query-share",
-  "publisher": "htmlto",
-  "version": "0.1.0",
   "name": "HTML To Link",
   "description": "Publish a query result, or a table's columns, indexes, foreign keys, and comments, as a read-only htmlto.link page. Database credentials stay in DBX.",
+  "publisher": "htmlto",
+  "verified": false,
   "icon": "https://raw.githubusercontent.com/licc168/dbx-htmlto-link/v0.1.0/assets/plugin.svg",
-  "tags": ["sql", "share", "markdown"],
+  "tags": [
+    "sql",
+    "share",
+    "markdown"
+  ],
   "permissions": [
     "host.storage",
     "host.data:read",
@@ -16,19 +19,27 @@
   "source": "https://github.com/licc168/dbx-htmlto-link/tree/v0.1.0",
   "homepage": "https://htmlto.link",
   "license": "MIT",
-  "releaseNotes": "Initial release. Publish a query result, or reconstructed table structure with indexes, foreign keys, and comments, as a read-only htmlto.link page.",
+  "latestVersion": "0.1.0",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "releasedAt": "2026-10-23T03:24:56.671Z",
+      "releaseNotes": "Initial release. Publish a query result, or reconstructed table structure with indexes, foreign keys, and comments, as a read-only htmlto.link page.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/link.htmlto.query-share/0.1.0/link.htmlto.query-share-0.1.0-universal.dbxp",
+          "sha256": "c98cd1fffc7d7e23e8e3a60808bfb201a346907c7f1dda529dc43e7c998c7798",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 35414
+        }
+      ]
+    }
+  ],
   "localizations": {
     "zh-CN": {
       "name": "HTML To Link",
       "description": "把查询结果，或表的字段、索引、外键和注释，发成一条只读的 htmlto.link 链接。数据库连接留在 DBX。"
     }
-  },
-  "targets": [
-    {
-      "target": "universal",
-      "url": "https://github.com/licc168/dbx-htmlto-link/releases/download/v0.1.0/link.htmlto.query-share-0.1.0-universal.dbxp",
-      "sha256": "0cfd136b9a47fe21bf1e11af22712671b954b6d553a89dbe2c5a803de0f43425",
-      "size": 34840
-    }
-  ]
+  }
 }
